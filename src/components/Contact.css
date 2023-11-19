@@ -1,0 +1,50 @@
+.form {
+  display: flex;
+  gap: 12px;
+  flex-direction: column;
+  max-width: 400px;
+  margin: 0 auto;
+}
+.form--item {
+  display: flex;
+  gap: 8px;
+  flex-direction: column;
+}
+h1 {
+  text-align: center;
+}
+form input,
+textarea {
+  width: 100%;
+}
+input{
+    width: 100%;
+}
+label {
+  margin-left: 40%;
+}
+.label {
+  margin-left: 40%;
+}
+.file {
+  display: none;
+}
+.uploader {
+  display: flex;
+  padding: 12px;
+  align-items: flex-start;
+  gap: 12px;
+  border: 1px dotted grey;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.uploader-icon {
+  width: 24px;
+  height: 24px;
+  flex-shrink: 0;
+}
+.form-error{
+  color: red;
+  text-align: center;
+}
